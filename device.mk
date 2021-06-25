@@ -10,5 +10,9 @@ $(call inherit-product, vendor/google/beast/beast-vendor.mk)
 
 $(call inherit-product, device/amlogic/gx-common/gx.mk)
 
+## Kernel Modules
+PRODUCT_PACKAGES += \
+    8822bs
+
 ## Platform
 TARGET_AMLOGIC_SOC := gxl
