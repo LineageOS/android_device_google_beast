@@ -10,3 +10,6 @@ DEVICE_PATH := device/google/beast
 
 ## Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := Beast
+
+## DTB
+TARGET_DTB_NAME := gxl_sei210_2g
