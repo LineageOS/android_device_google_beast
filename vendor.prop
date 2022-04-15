@@ -5,6 +5,7 @@
 #
 
 ## Bluetooth
+bluetooth.device.default_name=ADT-2
 persist.bluetooth.rtkcoex=true
 ro.autoconnectbt.macprefix=00:CD:FF
 ro.autoconnectbt.btclass=50c
