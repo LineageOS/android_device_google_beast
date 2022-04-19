@@ -11,3 +11,6 @@ ro.autoconnectbt.btclass=50c
 
 ## Platform
 ro.product.firmware=00502001
+
+## SOC
+ro.soc.model=AMLS905X
