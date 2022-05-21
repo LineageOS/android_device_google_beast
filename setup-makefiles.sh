@@ -10,6 +10,7 @@ set -e
 
 export DEVICE=beast
 export DEVICE_COMMON=gx-common
+export TARGET_SOC=gxl
 export VENDOR_COMMON=amlogic
 export VENDOR_DEVICE=google
 
