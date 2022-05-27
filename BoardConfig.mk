@@ -14,6 +14,9 @@ TARGET_BOOTLOADER_BOARD_NAME := Beast
 ## DTB
 TARGET_DTB_NAME := gxl_sei210_2g
 
+# GPU
+TARGET_AMLOGIC_GPU_ARCH := utgard
+
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
