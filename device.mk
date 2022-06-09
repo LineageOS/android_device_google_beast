@@ -4,8 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-$(call inherit-product, vendor/google/beast/beast-vendor.mk)
-
 ## Bluetooth
 BOARD_HAVE_BLUETOOTH_RTK_TV := true
 include hardware/realtek/rtkbt/rtkbt.mk
@@ -27,3 +25,6 @@ TARGET_AMLOGIC_SOC := gxl
 
 ## Inherit from the common tree product makefile
 $(call inherit-product, device/amlogic/gx-common/gx.mk)
+
+## Inherit from the proprietary files makefile
+$(call inherit-product, vendor/google/beast/beast-vendor.mk)
