@@ -6,8 +6,6 @@
 
 $(call inherit-product, vendor/google/beast/beast-vendor.mk)
 
-$(call inherit-product, device/amlogic/gx-common/gx.mk)
-
 ## Bluetooth
 BOARD_HAVE_BLUETOOTH_RTK_TV := true
 include hardware/realtek/rtkbt/rtkbt.mk
@@ -26,3 +24,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 ## Platform
 TARGET_AMLOGIC_SOC := gxl
+
+## Inherit from the common tree product makefile
+$(call inherit-product, device/amlogic/gx-common/gx.mk)
