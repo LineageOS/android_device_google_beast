@@ -4,8 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/google/beast
-
 $(call inherit-product, vendor/google/beast/beast-vendor.mk)
 
 $(call inherit-product, device/amlogic/gx-common/gx.mk)
@@ -16,7 +14,7 @@ include hardware/realtek/rtkbt/rtkbt.mk
 
 ## Init-Files
 PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/init-files/init.amlogic.wifi_buildin.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.wifi_buildin.rc
+    $(LOCAL_PATH)/init-files/init.amlogic.wifi_buildin.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.wifi_buildin.rc
 
 ## Kernel Modules
 PRODUCT_PACKAGES += \
@@ -24,7 +22,7 @@ PRODUCT_PACKAGES += \
 
 ## Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay
+    $(LOCAL_PATH)/overlay
 
 ## Platform
 TARGET_AMLOGIC_SOC := gxl
