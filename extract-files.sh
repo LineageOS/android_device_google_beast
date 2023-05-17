@@ -17,7 +17,7 @@ set -e
 export DEVICE=beast
 export DEVICE_COMMON=gx-common
 export TARGET_SOC=gxl
+export VENDOR=google
 export VENDOR_COMMON=amlogic
-export VENDOR_DEVICE=google
 
 "./../../${VENDOR_COMMON}/${DEVICE_COMMON}/extract-files.sh" "$@"
