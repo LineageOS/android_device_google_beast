@@ -1,4 +1,22 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "453db660_746730f8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-09-07T01:46:24Z",
+      "side": 1,
+      "message": "beast\u0027s /product is far too small to use for product with or without gapps, using it as system_ext works without gapps but it is too small for gapps.\n\nThere\u0027s little to no use without filesystem compression which removes our ability to flash gapps soooooo - sadly ignore this partition.",
+      "revId": "02a8a74c12c7ee4eaa0a6fb6d1f9f381236c1aaf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ],
   "submitRequirementResults": []
 }
