@@ -1,5 +1,5 @@
-### All blobs from this list, unless pinned and noted as otherwise,
-##  are from adt2-user 9 PTT5.190307.001 5360859 dev-keys.        
+## All blobs from this list, unless pinned and noted as otherwise,
+## are from adt2-user 9 PTT5.190307.001 5360859 dev-keys.
 
 ## DRM
 vendor/lib/liboemcrypto.so
