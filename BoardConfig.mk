@@ -18,6 +18,10 @@ TARGET_AMLOGIC_GPU_ARCH := utgard
 ## Kernel
 BOARD_KERNEL_CMDLINE += androidboot.boot_devices=d0074000.emmc
 
+## Kernel modules
+TARGET_KERNEL_EXT_MODULES := \
+    rtl8822bs
+
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
