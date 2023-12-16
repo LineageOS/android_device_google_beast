@@ -21,9 +21,15 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init-files/init.amlogic.wifi_buildin.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.wifi_buildin.rc \
     $(LOCAL_PATH)/init-files/init.recovery.beast.rc:recovery/root/init.recovery.beast.rc
 
+<<<<<<< HEAD   (41ac8b beast: Update Bluetooth vendor properties)
 ## Kernel Modules
 PRODUCT_PACKAGES += \
     8822bs
+=======
+## Keylayout (IR)
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/keylayout/Vendor_0001_Product_0001.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0001_Product_0001.kl
+>>>>>>> CHANGE (5c646a beast: Properly build WLAN kernel module)
 
 ## Media
 PRODUCT_COPY_FILES += \
