@@ -12,6 +12,7 @@ bluetooth.profile.pbap.server.enabled=false
 persist.bluetooth.rtkcoex=true
 ro.autoconnectbt.macprefix=00:CD:FF
 ro.autoconnectbt.btclass=50c
+ro.boot.btmacaddr=22:22:ce:d2:ca:13
 
 ## OpenGL
 debug.hwui.use_buffer_age=false
