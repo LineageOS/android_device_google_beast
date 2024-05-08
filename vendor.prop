@@ -24,3 +24,6 @@ ro.product.firmware=00502001
 
 ## SOC
 ro.soc.model=AMLS905X
+
+## USB
+vendor.usb.controller=c9100000.dwc2_a
