@@ -25,6 +25,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     8822bs
 
+## Media
+ifneq ($(PRODUCT_USE_SW_OMX),true)
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/media/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml
+endif
+
 ## Platform
 TARGET_AMLOGIC_SOC := gxl
 
