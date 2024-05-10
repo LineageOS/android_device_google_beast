@@ -25,9 +25,17 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     8822bs
 
+<<<<<<< HEAD   (b1bbed beast: Decommonize USB controller prop)
 ## Keylayout (IR)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/Vendor_0001_Product_0001.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0001_Product_0001.kl
+=======
+## Media
+ifneq ($(PRODUCT_USE_SW_OMX),true)
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/media/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml
+endif
+>>>>>>> CHANGE (3e9e58 beast: Decommonize media_codecs.xml)
 
 ## Platform
 TARGET_AMLOGIC_SOC := gxl
