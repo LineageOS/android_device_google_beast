@@ -15,6 +15,9 @@ TARGET_DTB_NAME := gxl_sei210_2g
 ## GPU
 TARGET_AMLOGIC_GPU_ARCH := utgard
 
+## Kernel
+BOARD_KERNEL_CMDLINE += androidboot.boot_devices=d0074000.emmc
+
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
