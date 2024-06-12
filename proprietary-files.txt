@@ -1,8 +1,64 @@
 ## All blobs from this list, unless pinned and noted as otherwise,
 ## are from adt2-user 9 PTT5.190307.001 5360859 dev-keys.
 
+## Bluetooth
+vendor/etc/bluetooth/auto_pairing.conf
+vendor/etc/config/sei_remote.conf
+vendor/etc/firmware/firmware.le
+vendor/etc/remote.cfg
+vendor/etc/remote.tab1
+vendor/etc/remote.tab2
+vendor/etc/remote.tab3
+
+## Bluetooth - Firmware
+vendor/firmware/rtl8723b_config
+vendor/firmware/rtl8723b_fw
+vendor/firmware/rtl8723bs_VQ0_config
+vendor/firmware/rtl8723bs_VQ0_fw
+vendor/firmware/rtl8723bs_config
+vendor/firmware/rtl8723bs_fw
+vendor/firmware/rtl8723bu_config
+vendor/firmware/rtl8723d_config
+vendor/firmware/rtl8723d_fw
+vendor/firmware/rtl8723ds_config
+vendor/firmware/rtl8723ds_fw
+vendor/firmware/rtl8761a_config
+vendor/firmware/rtl8761a_fw
+vendor/firmware/rtl8761at_config
+vendor/firmware/rtl8761at_fw
+vendor/firmware/rtl8761au8192ee_fw
+vendor/firmware/rtl8761au8812ae_fw
+vendor/firmware/rtl8761au_fw
+vendor/firmware/rtl8761aw8192eu_config
+vendor/firmware/rtl8761aw8192eu_fw
+vendor/firmware/rtl8821a_config
+vendor/firmware/rtl8821a_fw
+vendor/firmware/rtl8821as_config
+vendor/firmware/rtl8821as_fw
+vendor/firmware/rtl8821c_config
+vendor/firmware/rtl8821c_fw
+vendor/firmware/rtl8821cs_config
+vendor/firmware/rtl8821cs_fw
+vendor/firmware/rtl8822b_config
+vendor/firmware/rtl8822b_fw
+vendor/firmware/rtl8822bs_config
+vendor/firmware/rtl8822bs_fw
+
 ## DRM
 vendor/lib/liboemcrypto.so
+vendor/etc/drm/playready/bgroupcert.dat
+vendor/etc/drm/playready/zgpriv.dat
+vendor/etc/drm/playready/zgpriv_protected.dat
+
+## Droidlogic - Device Specific
+vendor/etc/permissions/droidlogic.software.core.xml
+vendor/etc/permissions/droidlogic.software.netflix.xml
+vendor/lib/libremotecontrol_jni.so
+vendor/priv-app/droidlogic-res/droidlogic-res.apk
+
+## HDCP
+vendor/bin/hdcp_tx22
+vendor/bin/secmem_test
 
 ## TEE Applets
 vendor/lib/teetz/2c1a33c0-44cc-11e5-bc3b0002a5d5c51b.ta
