@@ -38,6 +38,10 @@ endif
 ## Platform
 TARGET_AMLOGIC_SOC := gxl
 
+## RemovePackages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 ## Inherit from the common tree product makefile
 $(call inherit-product, device/amlogic/gx-common/gx.mk)
 
