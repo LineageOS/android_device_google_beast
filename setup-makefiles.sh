@@ -12,6 +12,7 @@ export DEVICE=beast
 export DEVICE_COMMON=gx-common
 export TARGET_SOC=gxl
 export VENDOR=google
+export VENDOR_DEVICE="${VENDOR}"
 export VENDOR_COMMON=amlogic
 
 "./../../${VENDOR_COMMON}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"
