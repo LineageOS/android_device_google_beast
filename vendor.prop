@@ -6,13 +6,17 @@
 
 ## Bluetooth
 bluetooth.device.default_name=ADT-2
+bluetooth.profile.a2dp.sink.enabled=false
+bluetooth.profile.avrcp.controller.enabled=false
 bluetooth.profile.hfp.ag.enabled=false
+bluetooth.profile.hfp.hf.enabled=false
+bluetooth.profile.map.client.enabled=false
+bluetooth.profile.map.server.enabled=true
 bluetooth.profile.opp.enabled=false
+bluetooth.profile.pan.panu.enabled=false
+bluetooth.profile.pbap.client.enabled=false
 bluetooth.profile.pbap.server.enabled=false
 persist.bluetooth.rtkcoex=true
-ro.autoconnectbt.macprefix=00:CD:FF
-ro.autoconnectbt.btclass=50c
-ro.boot.btmacaddr=22:22:ce:d2:ca:13
 
 ## Media
 media.omx.display_mode=1
