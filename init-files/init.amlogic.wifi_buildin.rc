@@ -1,2 +1,2 @@
 on boot
-    insmod /vendor/lib/modules/8822bs.ko ifname=wlan0 if2name=p2p0
+    insmod /vendor/lib/modules/8822bs.ko rtw_country_code=US ifname=wlan0 if2name=p2p0
