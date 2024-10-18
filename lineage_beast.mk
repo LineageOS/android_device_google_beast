@@ -24,13 +24,10 @@ PRODUCT_MANUFACTURER := Google
 PRODUCT_MODEL := ADT-2
 PRODUCT_NAME := lineage_beast
 
-PRODUCT_SYSTEM_NAME := adt2
-PRODUCT_SYSTEM_DEVICE := adt2
-
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=adt2 \
-    PRIVATE_BUILD_DESC="adt2-user 9 PTT5.190307.001 5360859 dev-keys" \
-    TARGET_DEVICE=$(PRODUCT_DEVICE) \
-    TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
-
-BUILD_FINGERPRINT := google/adt2/adt2:9/PTT5.190307.001/5360859:user/dev-keys
+    BuildDesc="adt2-user 9 PTT5.190307.001 5360859 dev-keys" \
+    BuildFingerprint=google/adt2/adt2:9/PTT5.190307.001/5360859:user/dev-keys \
+    DeviceName=adt2 \
+    DeviceProduct=adt2 \
+    SystemDevice=adt2 \
+    SystemName=adt2
