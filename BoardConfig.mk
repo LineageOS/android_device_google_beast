@@ -3,6 +3,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+TARGET_HAS_TEE := false
+
 DEVICE_PATH := device/google/beast
 
 ## Bootloader
