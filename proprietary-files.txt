@@ -12,14 +12,14 @@ vendor/framework/droidlogic.jar
 vendor/priv-app/droidlogic-res/droidlogic-res.apk
 
 ## Playready - adt3-user 13 TTT1.230205.001 9565391 release-keys
-vendor/bin/hw/android.hardware.drm@1.4-service.playready
-vendor/etc/drm/playready/bgroupcert.dat
-vendor/etc/drm/playready/zgpriv.dat
-vendor/etc/drm/playready/zgpriv_protected.dat
-vendor/etc/init/android.hardware.drm@1.4-service.playready.rc
-vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.playready.xml
-vendor/lib/libplayready.so
-vendor/lib/libplayreadymediadrmplugin.so
+vendor/bin/hw/android.hardware.drm@1.4-service.playready|f476423c9f45cf46a92dd5a8e4d6591525043af8
+vendor/etc/drm/playready/bgroupcert.dat|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/etc/drm/playready/zgpriv.dat|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/etc/drm/playready/zgpriv_protected.dat|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/etc/init/android.hardware.drm@1.4-service.playready.rc|f96c2a3792ec7448ddc8a6560883f3db55851f51
+vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.playready.xml|77d03cad678f8af87d8646877fab7b17d03c4b25
+vendor/lib/libplayready.so|4ed7015ba7e81eb2478ac57f2ebcb2c84b7d6fff
+vendor/lib/libplayreadymediadrmplugin.so|6bf9d0f1d6958a983983d744e5916d798f1fb040
 
 ## TEE - from adt3-user 13 TTT1.230205.001 9565391 release-keys
 vendor/bin/hw/android.hardware.security.keymint-service.amlogic|0fad4ea718c26abd0d1faad369de76edb3efdfa4|179a069762b75ee221cde93071ad08c8f7961d2c
