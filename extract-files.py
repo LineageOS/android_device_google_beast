@@ -15,7 +15,7 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
-    'vendor/amlogic/g12-common',
+    'vendor/amlogic/gx-common',
 ]
 
 blob_fixups: blob_fixups_user_type = {
@@ -37,5 +37,5 @@ module = ExtractUtilsModule(
 )
 
 if __name__ == '__main__':
-    utils = ExtractUtils.device_with_common(module, '../amlogic/g12-common', module.vendor)
+    utils = ExtractUtils.device_with_common(module, '../amlogic/gx-common', module.vendor)
     utils.run()
