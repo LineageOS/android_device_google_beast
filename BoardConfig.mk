@@ -12,8 +12,8 @@ TARGET_BOOTLOADER_BOARD_NAME := Beast
 TARGET_DTB_NAME := gxl_sei210_2g
 
 ## Kernel modules
-TARGET_KERNEL_EXT_MODULES := \
-    rtl8822bs:kbuild
+#TARGET_KERNEL_EXT_MODULES := \
+#    rtl8822bs:kbuild
 
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
