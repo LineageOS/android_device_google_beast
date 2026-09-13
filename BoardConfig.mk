@@ -26,6 +26,9 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 SELINUX_IGNORE_NEVERALLOWS := true
 BOARD_VENDOR_SEPOLICY_DIRS += device/google/beast/sepolicy/vendor
 
+## TEE
+TARGET_HAS_TEE := false
+
 ## Wi-Fi
 BOARD_WLAN_DEVICE := realtek
 BOARD_WPA_SUPPLICANT_DRIVER := NL80211
