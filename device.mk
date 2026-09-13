@@ -34,6 +34,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 ## Wi-Fi
 PRODUCT_CFI_INCLUDE_PATHS += hardware/realtek/wlan/wpa_supplicant_8_lib
+TARGET_HAVE_WIFIHAL := false
 
 ## Inherit from the common tree product makefile
 $(call inherit-product, device/amlogic/gx-common/gx.mk)
