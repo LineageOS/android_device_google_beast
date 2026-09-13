@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_dopinder.mk
+    $(LOCAL_DIR)/lineage_beast.mk

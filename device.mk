@@ -18,17 +18,11 @@ endif
 ## Init-Files
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init-files/init.amlogic.wifi_buildin.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.wifi_buildin.rc \
-    $(LOCAL_PATH)/init-files/init.amlogic.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.target.rc \
-    $(LOCAL_PATH)/init-files/init.recovery.dopinder.rc:recovery/root/init.recovery.dopinder.rc
+    $(LOCAL_PATH)/init-files/init.recovery.beast.rc:recovery/root/init.recovery.beast.rc
 
 ## Keylayout (IR)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/Vendor_0001_Product_0001.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0001_Product_0001.kl
-
-## Netflix
-PRODUCT_PACKAGES += \
-    NetflixConfig \
-    DopinderNetflixConfigOverlay
 
 ## Soong Namespaces
 PRODUCT_SOONG_NAMESPACES += \
@@ -41,4 +35,4 @@ PRODUCT_CFI_INCLUDE_PATHS += hardware/realtek/wlan/wpa_supplicant_8_lib
 $(call inherit-product, device/amlogic/g12-common/g12.mk)
 
 ## Inherit from the proprietary files makefile
-$(call inherit-product, vendor/askey/dopinder/dopinder-vendor.mk)
+$(call inherit-product, vendor/google/beast/beast-vendor.mk)

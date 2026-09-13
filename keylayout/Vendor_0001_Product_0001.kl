@@ -19,7 +19,7 @@ key 15    BACK
 key 158   BACK
 key 58    SOFT_RIGHT
 key 107   ENDCALL
-key 62    GUIDE
+key 62    ENDCALL
 key 139    MENU
 key 125    MENU
 key 60    NOTIFICATION
@@ -31,7 +31,7 @@ key 231   CALL
 key 61    CALL
 key 97    DPAD_CENTER WAKE
 key 232   DPAD_CENTER WAKE
-key 108   DPAD_DOWN
+key 108   PAIRING
 key 103   DPAD_UP
 key 102   HOME
 key 105   DPAD_LEFT
@@ -41,7 +41,7 @@ key 114   VOLUME_DOWN
 key 104   VOLUME_UP
 key 109   VOLUME_DOWN
 key 212   CAMERA
-
+key 218   PAIRING
 #key 16    Q
 #key 17    W
 #key 18    E
@@ -112,28 +112,13 @@ key 116   POWER
 #key 116   POWER	WAKE
 key 113   VOLUME_MUTE
 key 128   MEDIA_STOP
-key 130   MEDIA_NEXT
-key 131   MEDIA_PREVIOUS
-#STEM_1  map  INFO for netflix buttom
-#key 133   F2 WAKE
-key 133   STEM_1
+key 130   ZOOM_IN
+key 131   ZOOM_OUT
+#key 133   NETFLIX
 key 140   F10
 #key 132   TV_REPEAT
 #key 134   TV_SHORTCUTKEY_DISPAYMODE
-key 135   CAPTIONS
-key 136   MEDIA_AUDIO_TRACK
+#key 135   TV_SUBTITLE
+#key 136   TV_SHORTCUTKEY_VOICEMODE
 #key 137   TV_SWITCH
 
-#added by askey for WH-5349 IR ->start
-key 582   ASSIST WAKE
-#ALLAPPS
-key 253   ALL_APPS
-#YOUTUBE
-key 250   BUTTON_3 WAKE
-#NETFLIX
-key 251   BUTTON_4 WAKE
-#GOOGLEPLAY
-key 252   BUTTON_8 WAKE
-#BTPAIR
-key 249   PAIRING
-#added by askey for WH-5349 IR ->end 

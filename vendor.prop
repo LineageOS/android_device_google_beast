@@ -1,5 +1,5 @@
 ## Bluetooth
-bluetooth.device.default_name=ONN 4K Box
+bluetooth.device.default_name=ADT-2
 bluetooth.profile.a2dp.sink.enabled=false
 bluetooth.profile.avrcp.controller.enabled=false
 bluetooth.profile.hfp.ag.enabled=false
@@ -16,11 +16,11 @@ ro.vendor.platform.support.dolbyvision=false
 vendor.media.support.dolbyvision=false
 
 ## NRDP
-ro.vendor.nrdp.modelgroup=STI6140D360
-ro.vendor.nrdp.oemmodel=Onn_sti6140d360
+ro.vendor.nrdp.audio.mixer.buffersize=1024
+ro.vendor.nrdp.modelgroup=deadpool
 
 ## SOC
-ro.soc.model=AMLS905X2
+ro.soc.model=AMLS905X
 
 ## Wi-Fi
 vendor.bcm_wifi=rtl

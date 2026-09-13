@@ -16,19 +16,17 @@ $(call inherit-product, vendor/lineage/config/common_full_tv.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_BRAND := Onn
-PRODUCT_DEVICE := dopinder
-PRODUCT_GMS_CLIENTID_BASE := android-askey-tv
-PRODUCT_MANUFACTURER := askey
-PRODUCT_MODEL := sti6140d360
-PRODUCT_NAME := lineage_dopinder
-
-PRODUCT_ATV_CLIENTID_BASE := ATV00100021
+PRODUCT_BRAND := Google
+PRODUCT_DEVICE := beast
+PRODUCT_GMS_CLIENTID_BASE := android-beast-tv
+PRODUCT_MANUFACTURER := SEI Robotics
+PRODUCT_MODEL := ADT-2
+PRODUCT_NAME := lineage_beast
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="sti6140d360-user 12 SC 20240424 release-keys" \
-    BuildFingerprint=Onn/sti6140d360/sti6140d360:12/SC/20240424:user/release-keys \
-    DeviceName=dopinder \
-    DeviceProduct=sti6140d360 \
-    SystemDevice=sti6140d360 \
-    SystemName=sti6140d360
+    BuildDesc="adt3-user 13 TTT1.230205.001 9565391 release-keys" \
+    BuildFingerprint=ADT-3/adt3/adt3:13/TTT1.230205.001/9565391:user/release-keys \
+    DeviceName=adt2 \
+    DeviceProduct=adt2 \
+    SystemDevice=adt2 \
+    SystemName=adt2

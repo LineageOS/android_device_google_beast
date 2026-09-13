@@ -3,17 +3,17 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/askey/dopinder
+DEVICE_PATH := device/google/beast
 
 ## Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := sti6140d360
+TARGET_BOOTLOADER_BOARD_NAME := Beast
 
 ## DTB
-TARGET_DTB_NAME := g12a_s905x2_u212_sti6130d3x0
+TARGET_DTB_NAME := gxl_sei210_2g
 
 ## Kernel modules
 TARGET_KERNEL_EXT_MODULES := \
-    rtl8822cs/rtl88x2CS:kbuild
+    rtl8822bs:kbuild
 
 ## Partitions
 BOARD_SUPER_PARTITION_SIZE := 1677721600
@@ -23,7 +23,7 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 ## SELinux
 SELINUX_IGNORE_NEVERALLOWS := true
-BOARD_VENDOR_SEPOLICY_DIRS += device/askey/dopinder/sepolicy/vendor
+BOARD_VENDOR_SEPOLICY_DIRS += device/google/beast/sepolicy/vendor
 
 ## Wi-Fi
 BOARD_WLAN_DEVICE := realtek
@@ -37,4 +37,4 @@ WIFI_DRIVER_SOCKET_IFACE := wlan0
 include device/amlogic/g12-common/BoardConfigCommon.mk
 
 ## Include the proprietary BoardConfig makefile
-include vendor/askey/dopinder/BoardConfigVendor.mk
+include vendor/google/beast/BoardConfigVendor.mk
