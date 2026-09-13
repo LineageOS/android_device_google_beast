@@ -1,3 +1,3 @@
 # Firmware - from adt2-user 9 PTT5.190307.001 5360859 dev-keys - (dumped from device)
 
-bootloader.img
+bootloader.img|fd84f98e954fffb533e5bf9f1ebb1f4ad366659d
