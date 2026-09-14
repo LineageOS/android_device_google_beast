@@ -33,5 +33,8 @@ WIFI_DRIVER_SOCKET_IFACE := wlan0
 ## Include the common tree BoardConfig makefile
 include device/amlogic/gx-common/BoardConfigCommon.mk
 
+## Kernel - Appends to gx-common configs
+TARGET_KERNEL_CONFIG += beast.config
+
 ## Include the proprietary BoardConfig makefile
 include vendor/google/beast/BoardConfigVendor.mk
